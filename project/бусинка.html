@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-inline: 18px;
+            padding-block: 9px;
+        }
+
+        .mini-block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .mini-block img {
+            height: 32px;
+        }
+
+        .list li {
+            list-style: none;
+        }
+
+        .list ul {
+            display: flex;
+            gap: 20px;
+            font-family: Arial;
+        }
+
+        .sign {
+            color: white;
+            background: black;
+            padding-inline: 18px;
+            padding-block: 9px;
+            font-family: Arial;
+            text-decoration: none;
+            border-radius: 40px;
+        }
+
+        .text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial;
+            flex-direction: column;
+            word-break: break-word;
+            margin-inline: 30%;
+            text-align: center;
+        }
+
+        .text h1 {
+            font-size: 50px;
+            width: 700px;
+        }
+
+        .text p {
+            font-size: 16px;
+        }
+
+        body {
+            background: url(/project/background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .button {
+            color: white;
+            background: black;
+            padding-inline: 19px;
+            padding-block: 11px;
+            font-family: Arial;
+            text-decoration: none;
+            border-radius: 40px;
+        }
+
+        .but {
+            color: black;
+            border: 2px solid rgba(0, 0, 0, 0.24);
+            padding-inline: 19px;
+            padding-block: 11px;
+            font-family: Arial;
+            text-decoration: none;
+            border-radius: 40px;
+        }
+
+        .b {
+            flex-direction: row;
+            margin-top: 46px;
+        }
+
+        .img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-block: 56px;
+            position: relative;
+        }
+
+        .mouse {
+            position: absolute;
+            bottom: 5%;
+            right: 50%;
+        }
+
+        .screen {
+            position: absolute;
+            top: 6%;
+            z-index: -1;
+        }
+    </style>
+
+    <title>motivation</title>
+    <meta rel="deseription">
+    </meta>
+</head>
+
+<body>
+    <div class="menu">
+
+        <div class="mini-block">
+            <img src="/project/solar_stars-minimalistic-outline.png" alt="">
+
+            <nav class="list">
+                <ul>
+                    <li>Overview</li>
+                    <li>Features</li>
+                    <li>Pricing</li>
+                    <li>About</li>
+                </ul>
+            </nav>
+        </div>
+
+        <a class="sign" href="">Sign in</a>
+
+    </div>
+
+    <!-- finish menu -->
+
+    <!-- main -->
+    <div class="main">
+
+        <div class="text">
+            <h1>Discipline will take you places motivation can't</h1>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
+                enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <div class="b">
+                <a class="button" href="">Schedule a Demo</a>
+                <a class="but" href="">Contact Sales</a>
+            </div>
+        </div>
+
+        <div class="img">
+            <img src="/project/Browser.png" alt="">
+            <img class="mouse" src="/project/Union.png" alt="photo">
+            <img class="screen" src="/project/screen.png" alt="layer">
+        </div> <!-- finish img -->
+    </div> <!-- finish main -->
+</body>
